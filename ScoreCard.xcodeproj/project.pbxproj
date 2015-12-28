@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E400B47B1C31ABE600170821 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B47A1C31ABE600170821 /* AppDelegate.swift */; };
+		E400B47D1C31ABE600170821 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B47C1C31ABE600170821 /* ViewController.swift */; };
+		E400B4801C31ABE600170821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400B47E1C31ABE600170821 /* Main.storyboard */; };
+		E400B4831C31ABE600170821 /* ScoreCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E400B4811C31ABE600170821 /* ScoreCard.xcdatamodeld */; };
+		E400B4851C31ABE600170821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E400B4841C31ABE600170821 /* Assets.xcassets */; };
+		E400B4881C31ABE600170821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400B4861C31ABE600170821 /* LaunchScreen.storyboard */; };
+		E400B4931C31ABE600170821 /* ScoreCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4921C31ABE600170821 /* ScoreCardTests.swift */; };
+		E400B49E1C31ABE600170821 /* ScoreCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B49D1C31ABE600170821 /* ScoreCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E400B48F1C31ABE600170821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E400B46F1C31ABE600170821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E400B4761C31ABE600170821;
+			remoteInfo = ScoreCard;
+		};
+		E400B49A1C31ABE600170821 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E400B46F1C31ABE600170821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E400B4761C31ABE600170821;
+			remoteInfo = ScoreCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E400B4771C31ABE600170821 /* ScoreCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoreCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E400B47A1C31ABE600170821 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E400B47C1C31ABE600170821 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E400B47F1C31ABE600170821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E400B4821C31ABE600170821 /* ScoreCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScoreCard.xcdatamodel; sourceTree = "<group>"; };
+		E400B4841C31ABE600170821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E400B4871C31ABE600170821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E400B4891C31ABE600170821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E400B48E1C31ABE600170821 /* ScoreCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E400B4921C31ABE600170821 /* ScoreCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardTests.swift; sourceTree = "<group>"; };
+		E400B4941C31ABE600170821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E400B4991C31ABE600170821 /* ScoreCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E400B49D1C31ABE600170821 /* ScoreCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardUITests.swift; sourceTree = "<group>"; };
+		E400B49F1C31ABE600170821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E400B4741C31ABE600170821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400B48B1C31ABE600170821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400B4961C31ABE600170821 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E400B46E1C31ABE600170821 = {
+			isa = PBXGroup;
+			children = (
+				E400B4791C31ABE600170821 /* ScoreCard */,
+				E400B4911C31ABE600170821 /* ScoreCardTests */,
+				E400B49C1C31ABE600170821 /* ScoreCardUITests */,
+				E400B4781C31ABE600170821 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E400B4781C31ABE600170821 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E400B4771C31ABE600170821 /* ScoreCard.app */,
+				E400B48E1C31ABE600170821 /* ScoreCardTests.xctest */,
+				E400B4991C31ABE600170821 /* ScoreCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E400B4791C31ABE600170821 /* ScoreCard */ = {
+			isa = PBXGroup;
+			children = (
+				E400B47A1C31ABE600170821 /* AppDelegate.swift */,
+				E400B47C1C31ABE600170821 /* ViewController.swift */,
+				E400B47E1C31ABE600170821 /* Main.storyboard */,
+				E400B4841C31ABE600170821 /* Assets.xcassets */,
+				E400B4861C31ABE600170821 /* LaunchScreen.storyboard */,
+				E400B4891C31ABE600170821 /* Info.plist */,
+				E400B4811C31ABE600170821 /* ScoreCard.xcdatamodeld */,
+			);
+			path = ScoreCard;
+			sourceTree = "<group>";
+		};
+		E400B4911C31ABE600170821 /* ScoreCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E400B4921C31ABE600170821 /* ScoreCardTests.swift */,
+				E400B4941C31ABE600170821 /* Info.plist */,
+			);
+			path = ScoreCardTests;
+			sourceTree = "<group>";
+		};
+		E400B49C1C31ABE600170821 /* ScoreCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E400B49D1C31ABE600170821 /* ScoreCardUITests.swift */,
+				E400B49F1C31ABE600170821 /* Info.plist */,
+			);
+			path = ScoreCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E400B4761C31ABE600170821 /* ScoreCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E400B4A21C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCard" */;
+			buildPhases = (
+				E400B4731C31ABE600170821 /* Sources */,
+				E400B4741C31ABE600170821 /* Frameworks */,
+				E400B4751C31ABE600170821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScoreCard;
+			productName = ScoreCard;
+			productReference = E400B4771C31ABE600170821 /* ScoreCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E400B48D1C31ABE600170821 /* ScoreCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E400B4A51C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCardTests" */;
+			buildPhases = (
+				E400B48A1C31ABE600170821 /* Sources */,
+				E400B48B1C31ABE600170821 /* Frameworks */,
+				E400B48C1C31ABE600170821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E400B4901C31ABE600170821 /* PBXTargetDependency */,
+			);
+			name = ScoreCardTests;
+			productName = ScoreCardTests;
+			productReference = E400B48E1C31ABE600170821 /* ScoreCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E400B4981C31ABE600170821 /* ScoreCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E400B4A81C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCardUITests" */;
+			buildPhases = (
+				E400B4951C31ABE600170821 /* Sources */,
+				E400B4961C31ABE600170821 /* Frameworks */,
+				E400B4971C31ABE600170821 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E400B49B1C31ABE600170821 /* PBXTargetDependency */,
+			);
+			name = ScoreCardUITests;
+			productName = ScoreCardUITests;
+			productReference = E400B4991C31ABE600170821 /* ScoreCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E400B46F1C31ABE600170821 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Pete Dias";
+				TargetAttributes = {
+					E400B4761C31ABE600170821 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E400B48D1C31ABE600170821 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E400B4761C31ABE600170821;
+					};
+					E400B4981C31ABE600170821 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E400B4761C31ABE600170821;
+					};
+				};
+			};
+			buildConfigurationList = E400B4721C31ABE600170821 /* Build configuration list for PBXProject "ScoreCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E400B46E1C31ABE600170821;
+			productRefGroup = E400B4781C31ABE600170821 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E400B4761C31ABE600170821 /* ScoreCard */,
+				E400B48D1C31ABE600170821 /* ScoreCardTests */,
+				E400B4981C31ABE600170821 /* ScoreCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E400B4751C31ABE600170821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E400B4881C31ABE600170821 /* LaunchScreen.storyboard in Resources */,
+				E400B4851C31ABE600170821 /* Assets.xcassets in Resources */,
+				E400B4801C31ABE600170821 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400B48C1C31ABE600170821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400B4971C31ABE600170821 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E400B4731C31ABE600170821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E400B4831C31ABE600170821 /* ScoreCard.xcdatamodeld in Sources */,
+				E400B47D1C31ABE600170821 /* ViewController.swift in Sources */,
+				E400B47B1C31ABE600170821 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400B48A1C31ABE600170821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E400B4931C31ABE600170821 /* ScoreCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E400B4951C31ABE600170821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E400B49E1C31ABE600170821 /* ScoreCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E400B4901C31ABE600170821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E400B4761C31ABE600170821 /* ScoreCard */;
+			targetProxy = E400B48F1C31ABE600170821 /* PBXContainerItemProxy */;
+		};
+		E400B49B1C31ABE600170821 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E400B4761C31ABE600170821 /* ScoreCard */;
+			targetProxy = E400B49A1C31ABE600170821 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E400B47E1C31ABE600170821 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E400B47F1C31ABE600170821 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E400B4861C31ABE600170821 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E400B4871C31ABE600170821 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E400B4A01C31ABE600170821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E400B4A11C31ABE600170821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E400B4A31C31ABE600170821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoreCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dias.ScoreCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E400B4A41C31ABE600170821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScoreCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dias.ScoreCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E400B4A61C31ABE600170821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScoreCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dias.ScoreCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreCard.app/ScoreCard";
+			};
+			name = Debug;
+		};
+		E400B4A71C31ABE600170821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScoreCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dias.ScoreCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScoreCard.app/ScoreCard";
+			};
+			name = Release;
+		};
+		E400B4A91C31ABE600170821 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScoreCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dias.ScoreCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScoreCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E400B4AA1C31ABE600170821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScoreCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dias.ScoreCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScoreCard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E400B4721C31ABE600170821 /* Build configuration list for PBXProject "ScoreCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400B4A01C31ABE600170821 /* Debug */,
+				E400B4A11C31ABE600170821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E400B4A21C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400B4A31C31ABE600170821 /* Debug */,
+				E400B4A41C31ABE600170821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E400B4A51C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400B4A61C31ABE600170821 /* Debug */,
+				E400B4A71C31ABE600170821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E400B4A81C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E400B4A91C31ABE600170821 /* Debug */,
+				E400B4AA1C31ABE600170821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E400B4811C31ABE600170821 /* ScoreCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E400B4821C31ABE600170821 /* ScoreCard.xcdatamodel */,
+			);
+			currentVersion = E400B4821C31ABE600170821 /* ScoreCard.xcdatamodel */;
+			path = ScoreCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E400B46F1C31ABE600170821 /* Project object */;
+}
