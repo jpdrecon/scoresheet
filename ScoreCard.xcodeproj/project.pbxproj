@@ -15,6 +15,23 @@
 		E400B4881C31ABE600170821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E400B4861C31ABE600170821 /* LaunchScreen.storyboard */; };
 		E400B4931C31ABE600170821 /* ScoreCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4921C31ABE600170821 /* ScoreCardTests.swift */; };
 		E400B49E1C31ABE600170821 /* ScoreCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B49D1C31ABE600170821 /* ScoreCardUITests.swift */; };
+		E400B4AC1C31AC7D00170821 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4AB1C31AC7D00170821 /* Person.swift */; };
+		E400B4AE1C31BDD000170821 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4AD1C31BDD000170821 /* Player.swift */; };
+		E400B4B01C31BE0D00170821 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4AF1C31BE0D00170821 /* Skater.swift */; };
+		E400B4B21C31BF2200170821 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4B11C31BF2200170821 /* Team.swift */; };
+		E400B4B41C31DC1D00170821 /* Goalie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4B31C31DC1D00170821 /* Goalie.swift */; };
+		E400B4B71C31F10000170821 /* DominantHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4B61C31F10000170821 /* DominantHand.swift */; };
+		E400B4B91C32242E00170821 /* PenaltyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4B81C32242E00170821 /* PenaltyType.swift */; };
+		E400B4BB1C330EA600170821 /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4BA1C330EA600170821 /* Coach.swift */; };
+		E400B4BD1C33106400170821 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4BC1C33106400170821 /* Game.swift */; };
+		E400B4BF1C33113B00170821 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4BE1C33113B00170821 /* Goal.swift */; };
+		E400B4C11C33152F00170821 /* Penalty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4C01C33152F00170821 /* Penalty.swift */; };
+		E400B4C31C33189700170821 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4C21C33189700170821 /* Period.swift */; };
+		E400B4C51C33248E00170821 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4C41C33248E00170821 /* Level.swift */; };
+		E400B4C71C332F5400170821 /* Referee.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4C61C332F5400170821 /* Referee.swift */; };
+		E400B4C91C33319600170821 /* Official.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4C81C33319600170821 /* Official.swift */; };
+		E400B4CB1C33331B00170821 /* Linesman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4CA1C33331B00170821 /* Linesman.swift */; };
+		E400B4CD1C3339D100170821 /* Tier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E400B4CC1C3339D100170821 /* Tier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +66,23 @@
 		E400B4991C31ABE600170821 /* ScoreCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScoreCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E400B49D1C31ABE600170821 /* ScoreCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCardUITests.swift; sourceTree = "<group>"; };
 		E400B49F1C31ABE600170821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E400B4AB1C31AC7D00170821 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = ../Person.swift; sourceTree = "<group>"; };
+		E400B4AD1C31BDD000170821 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E400B4AF1C31BE0D00170821 /* Skater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
+		E400B4B11C31BF2200170821 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		E400B4B31C31DC1D00170821 /* Goalie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goalie.swift; sourceTree = "<group>"; };
+		E400B4B61C31F10000170821 /* DominantHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DominantHand.swift; sourceTree = "<group>"; };
+		E400B4B81C32242E00170821 /* PenaltyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenaltyType.swift; sourceTree = "<group>"; };
+		E400B4BA1C330EA600170821 /* Coach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
+		E400B4BC1C33106400170821 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E400B4BE1C33113B00170821 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		E400B4C01C33152F00170821 /* Penalty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Penalty.swift; sourceTree = "<group>"; };
+		E400B4C21C33189700170821 /* Period.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		E400B4C41C33248E00170821 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		E400B4C61C332F5400170821 /* Referee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Referee.swift; sourceTree = "<group>"; };
+		E400B4C81C33319600170821 /* Official.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Official.swift; sourceTree = "<group>"; };
+		E400B4CA1C33331B00170821 /* Linesman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Linesman.swift; sourceTree = "<group>"; };
+		E400B4CC1C3339D100170821 /* Tier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +133,8 @@
 		E400B4791C31ABE600170821 /* ScoreCard */ = {
 			isa = PBXGroup;
 			children = (
+				E400B4B51C31F0E600170821 /* Enums */,
+				E400B4AB1C31AC7D00170821 /* Person.swift */,
 				E400B47A1C31ABE600170821 /* AppDelegate.swift */,
 				E400B47C1C31ABE600170821 /* ViewController.swift */,
 				E400B47E1C31ABE600170821 /* Main.storyboard */,
@@ -106,6 +142,17 @@
 				E400B4861C31ABE600170821 /* LaunchScreen.storyboard */,
 				E400B4891C31ABE600170821 /* Info.plist */,
 				E400B4811C31ABE600170821 /* ScoreCard.xcdatamodeld */,
+				E400B4AD1C31BDD000170821 /* Player.swift */,
+				E400B4AF1C31BE0D00170821 /* Skater.swift */,
+				E400B4B11C31BF2200170821 /* Team.swift */,
+				E400B4B31C31DC1D00170821 /* Goalie.swift */,
+				E400B4BA1C330EA600170821 /* Coach.swift */,
+				E400B4BC1C33106400170821 /* Game.swift */,
+				E400B4BE1C33113B00170821 /* Goal.swift */,
+				E400B4C01C33152F00170821 /* Penalty.swift */,
+				E400B4C61C332F5400170821 /* Referee.swift */,
+				E400B4C81C33319600170821 /* Official.swift */,
+				E400B4CA1C33331B00170821 /* Linesman.swift */,
 			);
 			path = ScoreCard;
 			sourceTree = "<group>";
@@ -126,6 +173,18 @@
 				E400B49F1C31ABE600170821 /* Info.plist */,
 			);
 			path = ScoreCardUITests;
+			sourceTree = "<group>";
+		};
+		E400B4B51C31F0E600170821 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E400B4B61C31F10000170821 /* DominantHand.swift */,
+				E400B4B81C32242E00170821 /* PenaltyType.swift */,
+				E400B4C21C33189700170821 /* Period.swift */,
+				E400B4C41C33248E00170821 /* Level.swift */,
+				E400B4CC1C3339D100170821 /* Tier.swift */,
+			);
+			name = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +318,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E400B4B41C31DC1D00170821 /* Goalie.swift in Sources */,
 				E400B4831C31ABE600170821 /* ScoreCard.xcdatamodeld in Sources */,
 				E400B47D1C31ABE600170821 /* ViewController.swift in Sources */,
+				E400B4BB1C330EA600170821 /* Coach.swift in Sources */,
+				E400B4B91C32242E00170821 /* PenaltyType.swift in Sources */,
+				E400B4B21C31BF2200170821 /* Team.swift in Sources */,
+				E400B4AC1C31AC7D00170821 /* Person.swift in Sources */,
+				E400B4C71C332F5400170821 /* Referee.swift in Sources */,
+				E400B4C11C33152F00170821 /* Penalty.swift in Sources */,
+				E400B4BD1C33106400170821 /* Game.swift in Sources */,
+				E400B4BF1C33113B00170821 /* Goal.swift in Sources */,
+				E400B4C31C33189700170821 /* Period.swift in Sources */,
+				E400B4C91C33319600170821 /* Official.swift in Sources */,
+				E400B4AE1C31BDD000170821 /* Player.swift in Sources */,
 				E400B47B1C31ABE600170821 /* AppDelegate.swift in Sources */,
+				E400B4CB1C33331B00170821 /* Linesman.swift in Sources */,
+				E400B4B71C31F10000170821 /* DominantHand.swift in Sources */,
+				E400B4CD1C3339D100170821 /* Tier.swift in Sources */,
+				E400B4C51C33248E00170821 /* Level.swift in Sources */,
+				E400B4B01C31BE0D00170821 /* Skater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
