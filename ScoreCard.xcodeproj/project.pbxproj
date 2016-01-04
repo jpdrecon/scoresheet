@@ -134,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				E400B4B51C31F0E600170821 /* Enums */,
-				E400B4AB1C31AC7D00170821 /* Person.swift */,
 				E400B47A1C31ABE600170821 /* AppDelegate.swift */,
 				E400B47C1C31ABE600170821 /* ViewController.swift */,
 				E400B47E1C31ABE600170821 /* Main.storyboard */,
@@ -142,6 +141,7 @@
 				E400B4861C31ABE600170821 /* LaunchScreen.storyboard */,
 				E400B4891C31ABE600170821 /* Info.plist */,
 				E400B4811C31ABE600170821 /* ScoreCard.xcdatamodeld */,
+				E400B4AB1C31AC7D00170821 /* Person.swift */,
 				E400B4AD1C31BDD000170821 /* Player.swift */,
 				E400B4AF1C31BE0D00170821 /* Skater.swift */,
 				E400B4B11C31BF2200170821 /* Team.swift */,
@@ -564,6 +564,7 @@
 				E400B4A41C31ABE600170821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E400B4A51C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCardTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +573,7 @@
 				E400B4A71C31ABE600170821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E400B4A81C31ABE600170821 /* Build configuration list for PBXNativeTarget "ScoreCardUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +582,7 @@
 				E400B4AA1C31ABE600170821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
