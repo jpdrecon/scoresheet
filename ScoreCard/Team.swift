@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Represents a Hockey team
 class Team{
     
     var teamName: String!{
